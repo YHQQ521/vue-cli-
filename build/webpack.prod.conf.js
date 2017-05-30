@@ -11,6 +11,7 @@ var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 
 var entries =  utils.getMultiEntry('./src/'+'views'+'/**/**/*.js'); // 获得入口js文件
 var chunks = Object.keys(entries);
+
 var env = config.build.env
 
 var webpackConfig = merge(baseWebpackConfig, {
