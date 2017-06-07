@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <h1>我是首页</h1>
-    <h2><a href="detail.html">点我跳转详情页</a></h2>
-    <img src="../../assets/logo.png">
     <hello></hello>
   </div>
 </template>
